@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
   constructor(private api: ApiService, private appComponent: AppComponent) { }
 
   validate(userCredentials: User){
-    if(userCredentials.id==8 || userCredentials.password=="group8"){
+    if(userCredentials.id==8 && userCredentials.password=="group8"){
       this.appComponent.checkValidation("success");
     }
   }
