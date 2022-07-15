@@ -1,0 +1,43 @@
+<ng-container *ngIf="true">
+    <br><br><br><br>
+    <div class="center">
+        <div class="card-table">
+            <div class="cart-product">
+                <div class="scrollable">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Product</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let product of productsList" class="cartItems">
+                                <td> <img src="{{product.imgUrl}}"></td>
+                                <td>{{product.title}}</td>
+                                <td>{{product.description}}</td>
+                                <td>{{product.price}}</td>
+                                <td>
+                                    <button id="trashButton" (click)="removeFromCart(product.id)">
+                                        <span class="material-symbols-outlined">
+                                            delete
+                                        </span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button id="shopMoreButton" routerLink="/homepage">
+                    Shop more
+                </button>
+                <button id="emptyCartButton" (click)="emptyCart()">
+                    Empty cart
+                </button>
+            </div>
+        </div>
+    </div>
+</ng-container>

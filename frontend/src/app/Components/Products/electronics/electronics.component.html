@@ -1,0 +1,20 @@
+<br><br><br><br><br><br>
+<h3 style="margin-left: 100px;">Electronics section</h3>
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let product of productsList">
+            <div class="card col-md-2" *ngIf="product.category=='Electronics'">
+                <form #productsForm="ngForm" (ngSubmit)="addToCart(productsForm.value)">
+                    <p hidden name="id" ngModel={{product.id}}>{{product.id}}</p>
+                    <p hidden name="category" ngModel={{product.category}}>{{product.category}}</p>
+                    <img src="{{product.imgUrl}}" name="imgUrl" ngModel={{product.imgUrl}}>
+                    <h5 name="title" ngModel={{product.title}}>{{product.title}}</h5>
+                    <p name="description" ngModel={{product.description}}>{{product.description}}</p>
+                    <p name="price" ngModel={{product.price}}>Rs. {{product.price}}</p>
+                    <input type="submit" value="Add to cart" class="btn btn-primary" id="btn0">
+                </form>
+            </div>
+        </ng-container>
+    </div>
+</div>
+
