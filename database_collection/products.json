@@ -1,0 +1,281 @@
+[{
+  "_id": 1,
+  "title": "Jeans",
+  "price": 1899,
+  "description": "Donear NXG Jeans",
+  "category": "Clothings",
+  "imgUrl": "assets/images/Products/clothing/jeans.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 2,
+  "title": "TShirt",
+  "price": 599,
+  "description": "Duke TShirts",
+  "category": "Clothings",
+  "imgUrl": "assets/images/Products/clothing/shirt.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 3,
+  "title": "Shoes",
+  "price": 6999,
+  "description": "Puma Shoes",
+  "category": "Clothings",
+  "imgUrl": "assets/images/Products/clothing/shoes.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 4,
+  "title": "Alienware Mouse",
+  "price": 1200,
+  "description": "Alenware mouse",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/alienwaremouse.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 5,
+  "title": "AMD Processor",
+  "price": 6700,
+  "description": "AMD Ryzen 5 Processor",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/amdprocessor.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 6,
+  "title": "Magic Mouse 2",
+  "price": 5000,
+  "description": "Apple Mouse",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/applemouse.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 7,
+  "title": "Apple TV",
+  "price": 9500,
+  "description": "Apple TV",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/appletv.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 8,
+  "title": "Desktop",
+  "price": 145000,
+  "description": "All-in-one Desktop",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/desktop.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 9,
+  "title": "Console",
+  "price": 4999,
+  "description": "Gaming Console",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/gamingconsole.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 10,
+  "title": "intel Processor",
+  "price": 17500,
+  "description": "intel i7 11th Gen Processor",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/intelprocessor.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 11,
+  "title": "iPhone 12",
+  "price": 112000,
+  "description": "Apple iPhone 12",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/iphone.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 12,
+  "title": "iWatch",
+  "price": 35000,
+  "description": "Apple iWatch",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/iwatch.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 13,
+  "title": "Logitech Mouse",
+  "price": 750,
+  "description": "Logitech Mouse",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/logitechmouse.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 14,
+  "title": "Macbook Pro",
+  "price": 275000,
+  "description": "Macbook Pro M2",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/macbook.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 15,
+  "title": "Motherboard",
+  "price": 56000,
+  "description": "ASUS Motherboard",
+  "category": "Electronics",
+  "imgUrl": "assets/images/Products/electronics/motherboard.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 16,
+  "title": "Wooden Chair",
+  "price": 4999,
+  "description": "Grey Wooden Chair",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/greychair.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 17,
+  "title": "Iron Chair",
+  "price": 7000,
+  "description": "Dark Iron Chair",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/ironchair.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 18,
+  "title": "Plastic Chair",
+  "price": 899,
+  "description": "Funky Plastic Chairs",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/plasticchair.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 19,
+  "title": "Retro Sofa",
+  "price": 26000,
+  "description": "Get the feel of Velvet",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/retrosofa.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 20,
+  "title": "Vintage Sofa",
+  "price": 45500,
+  "description": "Comfort at your best",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/sofa.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 21,
+  "title": "Wall Hangings",
+  "price": 8900,
+  "description": "Lights up your life",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/wallhanging.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 22,
+  "title": "White Chair",
+  "price": 6500,
+  "description": "White Wooden Chair",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/whitechair.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 23,
+  "title": "Wooden Chair",
+  "price": 1750,
+  "description": "Plain Wooden Chair",
+  "category": "Furniture",
+  "imgUrl": "assets/images/Products/furniture/woodenchair.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 24,
+  "title": "Apple",
+  "price": 750,
+  "description": "North Indian Apples",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/apple.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 25,
+  "title": "Avacardo",
+  "price": 950,
+  "description": "Ripe Avacardos",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/avacardo.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 26,
+  "title": "Black Berries",
+  "price": 150,
+  "description": "Seasonal Berries",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/berry.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 27,
+  "title": "Brockley",
+  "price": 299,
+  "description": "Green Brockley",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/brockley.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 28,
+  "title": "Capsicum",
+  "price": 70,
+  "description": "Yello and Green Capsicum",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/capsicum.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 29,
+  "title": "Coffee",
+  "price": 499,
+  "description": "Premium Nescafe Coffee",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/coffee.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 30,
+  "title": "Cutlery",
+  "price": 1700,
+  "description": "LaoPala Cutleries",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/cutlery.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 31,
+  "title": "Dragonfruit",
+  "price": 899,
+  "description": "VDeshi Fruit",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/dragonfruit.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 32,
+  "title": "Kit Kat",
+  "price": 99,
+  "description": "Kit Kat break banta hai",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/kitkat.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 33,
+  "title": "Oranges",
+  "price": 50,
+  "description": "Real and Ripe Oranges",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/orange.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 34,
+  "title": "pumpkin",
+  "price": 179,
+  "description": "Halloween Special",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/pumpkin.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+},{
+  "_id": 35,
+  "title": "Tomato",
+  "price": 49,
+  "description": "Toma-Tina is here",
+  "category": "Groceries",
+  "imgUrl": "assets/images/Products/groceries/tomato.jpg",
+  "_class": "com.rps.supermarket.model.product.Product"
+}]
