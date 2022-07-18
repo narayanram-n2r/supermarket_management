@@ -10,6 +10,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * This class is used as a controller for the Cart Service
+ * @author Nikhila
+ * @version 1.0
+ * @since July 2022
+ */
+
 @RestController
 @RequestMapping("/cart")
 public class CartController {

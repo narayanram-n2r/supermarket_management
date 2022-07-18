@@ -9,6 +9,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * This class is used as a controller for the Users Service
+ * @author Nikhila
+ * @version 1.0
+ * @since July 2022
+ */
+
 @RestController
 @RequestMapping("/users")
 public class UsersController {
