@@ -11,6 +11,7 @@ export class LoginComponent implements OnInit {
   public usersList=[];
   constructor(private api: ApiService, private appComponent: AppComponent) { }
 
+  // This method sends success if the condition is true
   validate(userCredentials: User){
     if(userCredentials.id==8 && userCredentials.password=="group8"){
       this.appComponent.checkValidation("success");

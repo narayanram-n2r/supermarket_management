@@ -1,3 +1,6 @@
+// This routing module file will be used for setting up routing functionalities
+
+//Importing all the necessary components to be routed
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './Components/homepage/homepage.component';
@@ -6,16 +9,17 @@ import { ElectronicsComponent } from './Components/Products/electronics/electron
 import { FurnitureComponent } from './Components/Products/furniture/furniture.component'; 
 import { GroceryComponent } from './Components/Products/grocery/grocery.component';
 import { CartComponent } from './Components/cart/cart.component';
-import { RegisterComponent } from './Components/register/register.component';
+// import { RegisterComponent } from './Components/register/register.component';
 
+// Assigning routes and declaring paths
 const routes: Routes = [
   {path:'homepage', component: HomepageComponent},
   {path:'clothings', component: ClothingComponent},
   {path:'electronics', component: ElectronicsComponent},
   {path:'furniture', component: FurnitureComponent},
   {path:'grocery', component: GroceryComponent},
-  {path:'cart', component: CartComponent},
-  {path: 'register', component: RegisterComponent}
+  {path:'cart', component: CartComponent}
+  // {path: 'register', component: RegisterComponent}
 ];
 
 @NgModule({

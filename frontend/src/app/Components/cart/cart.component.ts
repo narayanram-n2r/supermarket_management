@@ -10,30 +10,25 @@ import { Product } from '../Products/Product';
 export class CartComponent implements OnInit {
 
   
-  public productsList = [];
-  public grandTotal: number;
+  public productsList = []; // Declaring an empty array to be used for storing products
 
   constructor(private api: ApiService) { }
 
   ngOnInit() {
     this.loadAllProducts()
-    this.LoadTotal()
   }
 
+  // This method calls the showCart method from the service
   loadAllProducts() {
     return this.api.showCart().subscribe(data => this.productsList = data);
   }
 
-  LoadTotal(){
-    this.grandTotal = this.productsList.reduce((runningValue: number, product: Product)=> {
-      runningValue = runningValue + (product.price);
-    }, 0);
-  }
-
+  // This method will call the removeFromCart from api service
   removeFromCart(id){
     return this.api.removeFromCart(id).subscribe(), window.location.reload();    
   }
 
+  // This method will call the emptyCart from api service
   emptyCart(){
     return this.api.emptyCart().subscribe(), window.location.reload(); 
   }

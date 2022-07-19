@@ -9,7 +9,7 @@ import { GroceryComponent } from './Components/Products/grocery/grocery.componen
 import { FurnitureComponent } from './Components/Products/furniture/furniture.component';
 import { CartComponent } from './Components/cart/cart.component';
 import { LoginComponent } from './Components/login/login.component';
-import { RegisterComponent } from './Components/register/register.component';
+// import { RegisterComponent } from './Components/register/register.component';
 import { HomepageComponent } from './Components/homepage/homepage.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import {HttpClientModule} from '@angular/common/http';
@@ -24,7 +24,7 @@ import { FormsModule } from '@angular/forms';
     FurnitureComponent,
     CartComponent,
     LoginComponent,
-    RegisterComponent,
+    // RegisterComponent,
     HomepageComponent,
     NavbarComponent
   ],

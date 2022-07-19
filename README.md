@@ -1,2 +1,2 @@
-# ang_spring_starter_files
-Template for Angular , Spring Full Stack Application.
+# Supermarket Project
+This project is an e-commerce full stack application with Mongo, Spring Boot and Angular.

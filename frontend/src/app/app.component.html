@@ -1,9 +1,12 @@
+<!--Checking if the login was success or not-->
 
+<!--If the login gets success-->
 <div *ngIf="login=='success'">
     <app-navbar></app-navbar>
     <router-outlet></router-outlet>
 </div>
 
+<!--If the login gets failed-->
 <div *ngIf="login=='not success'">
     <app-login></app-login>
 </div>
