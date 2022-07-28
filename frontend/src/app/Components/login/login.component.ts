@@ -13,9 +13,13 @@ export class LoginComponent implements OnInit {
 
   // This method sends success if the condition is true
   validate(userCredentials: User){
-    if(userCredentials.id==8 && userCredentials.password=="group8"){
+    if(userCredentials.id==this.usersList
+      .find(x => x.id == userCredentials.id).id
+        && userCredentials.password==this.usersList
+      .find(x => x.id == userCredentials.id).password){
       this.appComponent.checkValidation("success");
     }
+    else{window.alert("Invalid credentials!!")}
   }
 
   ngOnInit() {
@@ -23,7 +27,14 @@ export class LoginComponent implements OnInit {
   }
 
   getUsers() {
-    return this.api.getUsers().subscribe(data => this.usersList = data);
+    return this.api.getUsers().subscribe(data => {
+      this.usersList = data;
+      this.storeUsers(data);
+    });
+  }
+
+  storeUsers(arr:User[]){
+    this.usersList=arr;
   }
 
 }

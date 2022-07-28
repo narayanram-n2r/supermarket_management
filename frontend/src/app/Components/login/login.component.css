@@ -33,7 +33,6 @@
 
 .box input[type="text"]:focus,.box input[type="password"]:focus{
 
-    width: 270px;
     border-color: #ffc400ec;
 
 }
