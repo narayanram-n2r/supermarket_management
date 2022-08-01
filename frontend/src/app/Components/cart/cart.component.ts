@@ -25,12 +25,12 @@ export class CartComponent implements OnInit {
 
   // This method will call the removeFromCart from api service
   removeFromCart(id){
-    return this.api.removeFromCart(id).subscribe(), window.location.reload();    
+    return this.api.removeFromCart(id).subscribe(), this.ngOnInit(); 
   }
 
   // This method will call the emptyCart from api service
   emptyCart(){
-    return this.api.emptyCart().subscribe(), window.location.reload(); 
+    return this.api.emptyCart().subscribe(), this.ngOnInit(); 
   }
 
 }
