@@ -33,4 +33,8 @@ export class CartComponent implements OnInit {
     return this.api.emptyCart().subscribe(), this.ngOnInit(); 
   }
 
+  checkout(){
+    window.alert("Sorry, this feature will be available soon :) ")
+  }
+
 }
